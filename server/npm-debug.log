@@ -1,0 +1,254 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'cors',
+1 verbose cli   'nodemon',
+1 verbose cli   'express',
+1 verbose cli   'socket.io' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData cors
+8 silly fetchPackageMetaData nodemon
+9 silly fetchPackageMetaData express
+10 silly fetchPackageMetaData socket.io
+11 silly fetchNamedPackageData cors
+12 silly mapToRegistry name cors
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/cors
+16 silly fetchNamedPackageData nodemon
+17 silly mapToRegistry name nodemon
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/nodemon
+21 silly fetchNamedPackageData express
+22 silly mapToRegistry name express
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/express
+26 silly fetchNamedPackageData socket.io
+27 silly mapToRegistry name socket.io
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+31 verbose request uri https://registry.npmjs.org/cors
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 8:11:23 PM
+34 verbose request id 796a676c304e16ea
+35 http request GET https://registry.npmjs.org/cors
+36 verbose request uri https://registry.npmjs.org/socket.io
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 8:11:24 PM
+39 http request GET https://registry.npmjs.org/socket.io
+40 verbose request uri https://registry.npmjs.org/nodemon
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 8:11:24 PM
+43 verbose etag W/"19005cc94afc2096c052892c48c82db6"
+44 verbose lastModified Wed, 11 Dec 2019 14:24:29 GMT
+45 http request GET https://registry.npmjs.org/nodemon
+46 verbose request uri https://registry.npmjs.org/express
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 8:11:24 PM
+49 verbose etag W/"72f8ffb551c782b44a301010ef5f4f7e"
+50 verbose lastModified Tue, 14 Jan 2020 20:17:40 GMT
+51 http request GET https://registry.npmjs.org/express
+52 http 200 https://registry.npmjs.org/cors
+53 verbose headers { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+53 verbose headers   'content-type': 'application/json',
+53 verbose headers   'transfer-encoding': 'chunked',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'set-cookie':
+53 verbose headers    [ '__cfduid=d9e4895886dbe3ee99c049cde3a1d34991616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+53 verbose headers   'cf-ray': '6361ff785f7c75a3-DME',
+53 verbose headers   age: '3664',
+53 verbose headers   'cache-control': 'public, max-age=300',
+53 verbose headers   etag: 'W/"158c1c99bef274f24886ea063ec191c5"',
+53 verbose headers   'last-modified': 'Fri, 22 Jan 2021 21:18:44 GMT',
+53 verbose headers   vary: 'accept-encoding, accept',
+53 verbose headers   'cf-cache-status': 'HIT',
+53 verbose headers   'cf-request-id': '09111dff3b000075a3c7b88000000001',
+53 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+53 verbose headers   server: 'cloudflare',
+53 verbose headers   'content-encoding': 'gzip' }
+54 silly get cb [ 200,
+54 silly get   { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+54 silly get     'content-type': 'application/json',
+54 silly get     'transfer-encoding': 'chunked',
+54 silly get     connection: 'keep-alive',
+54 silly get     'set-cookie':
+54 silly get      [ '__cfduid=d9e4895886dbe3ee99c049cde3a1d34991616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+54 silly get     'cf-ray': '6361ff785f7c75a3-DME',
+54 silly get     age: '3664',
+54 silly get     'cache-control': 'public, max-age=300',
+54 silly get     etag: 'W/"158c1c99bef274f24886ea063ec191c5"',
+54 silly get     'last-modified': 'Fri, 22 Jan 2021 21:18:44 GMT',
+54 silly get     vary: 'accept-encoding, accept',
+54 silly get     'cf-cache-status': 'HIT',
+54 silly get     'cf-request-id': '09111dff3b000075a3c7b88000000001',
+54 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+54 silly get     server: 'cloudflare',
+54 silly get     'content-encoding': 'gzip' } ]
+55 verbose get saving cors to /home/derherbst/.npm/registry.npmjs.org/cors/.cache.json
+56 http 200 https://registry.npmjs.org/nodemon
+57 verbose headers { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'transfer-encoding': 'chunked',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'set-cookie':
+57 verbose headers    [ '__cfduid=d9cf5fee5f86a07a55bece4ac42b70e7d1616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+57 verbose headers   'cf-ray': '6361ff7868a10c3c-DME',
+57 verbose headers   age: '4482',
+57 verbose headers   'cache-control': 'public, max-age=300',
+57 verbose headers   etag: 'W/"82173eab2048423d3b12575934d7bd1b"',
+57 verbose headers   'last-modified': 'Wed, 24 Mar 2021 05:25:08 GMT',
+57 verbose headers   vary: 'accept-encoding, accept',
+57 verbose headers   'cf-cache-status': 'HIT',
+57 verbose headers   'cf-request-id': '09111dff4300000c3c63226000000001',
+57 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+57 verbose headers   server: 'cloudflare',
+57 verbose headers   'content-encoding': 'gzip' }
+58 silly get cb [ 200,
+58 silly get   { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+58 silly get     'content-type': 'application/json',
+58 silly get     'transfer-encoding': 'chunked',
+58 silly get     connection: 'keep-alive',
+58 silly get     'set-cookie':
+58 silly get      [ '__cfduid=d9cf5fee5f86a07a55bece4ac42b70e7d1616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+58 silly get     'cf-ray': '6361ff7868a10c3c-DME',
+58 silly get     age: '4482',
+58 silly get     'cache-control': 'public, max-age=300',
+58 silly get     etag: 'W/"82173eab2048423d3b12575934d7bd1b"',
+58 silly get     'last-modified': 'Wed, 24 Mar 2021 05:25:08 GMT',
+58 silly get     vary: 'accept-encoding, accept',
+58 silly get     'cf-cache-status': 'HIT',
+58 silly get     'cf-request-id': '09111dff4300000c3c63226000000001',
+58 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+58 silly get     server: 'cloudflare',
+58 silly get     'content-encoding': 'gzip' } ]
+59 verbose get saving nodemon to /home/derherbst/.npm/registry.npmjs.org/nodemon/.cache.json
+60 http 200 https://registry.npmjs.org/socket.io
+61 verbose headers { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+61 verbose headers   'content-type': 'application/json',
+61 verbose headers   'transfer-encoding': 'chunked',
+61 verbose headers   connection: 'keep-alive',
+61 verbose headers   'set-cookie':
+61 verbose headers    [ '__cfduid=d18e06c1abd67b7d989ff1ce32980afa51616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+61 verbose headers   'cf-ray': '6361ff786a17497d-DME',
+61 verbose headers   'cache-control': 'public, max-age=300',
+61 verbose headers   etag: 'W/"a9e259de06c27cbb3ebc124f69569d02"',
+61 verbose headers   'last-modified': 'Wed, 10 Mar 2021 11:45:06 GMT',
+61 verbose headers   vary: 'accept-encoding, accept',
+61 verbose headers   'cf-cache-status': 'HIT',
+61 verbose headers   'cf-request-id': '09111dff3f0000497ddb0f1000000001',
+61 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+61 verbose headers   server: 'cloudflare',
+61 verbose headers   'content-encoding': 'gzip' }
+62 silly get cb [ 200,
+62 silly get   { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+62 silly get     'content-type': 'application/json',
+62 silly get     'transfer-encoding': 'chunked',
+62 silly get     connection: 'keep-alive',
+62 silly get     'set-cookie':
+62 silly get      [ '__cfduid=d18e06c1abd67b7d989ff1ce32980afa51616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+62 silly get     'cf-ray': '6361ff786a17497d-DME',
+62 silly get     'cache-control': 'public, max-age=300',
+62 silly get     etag: 'W/"a9e259de06c27cbb3ebc124f69569d02"',
+62 silly get     'last-modified': 'Wed, 10 Mar 2021 11:45:06 GMT',
+62 silly get     vary: 'accept-encoding, accept',
+62 silly get     'cf-cache-status': 'HIT',
+62 silly get     'cf-request-id': '09111dff3f0000497ddb0f1000000001',
+62 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+62 silly get     server: 'cloudflare',
+62 silly get     'content-encoding': 'gzip' } ]
+63 verbose get saving socket.io to /home/derherbst/.npm/registry.npmjs.org/socket.io/.cache.json
+64 http 200 https://registry.npmjs.org/express
+65 verbose headers { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+65 verbose headers   'content-type': 'application/json',
+65 verbose headers   'transfer-encoding': 'chunked',
+65 verbose headers   connection: 'keep-alive',
+65 verbose headers   'set-cookie':
+65 verbose headers    [ '__cfduid=de05c715733b0e254910d1e0fd0a625f11616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+65 verbose headers   'cf-ray': '6361ff7889ed75ab-DME',
+65 verbose headers   age: '3905',
+65 verbose headers   'cache-control': 'public, max-age=300',
+65 verbose headers   etag: 'W/"f538acf6d267f4fe8e83d144e7eca01c"',
+65 verbose headers   'last-modified': 'Thu, 25 Feb 2021 23:21:20 GMT',
+65 verbose headers   vary: 'accept-encoding, accept',
+65 verbose headers   'cf-cache-status': 'HIT',
+65 verbose headers   'cf-request-id': '09111dff56000075abcc135000000001',
+65 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+65 verbose headers   server: 'cloudflare',
+65 verbose headers   'content-encoding': 'gzip' }
+66 silly get cb [ 200,
+66 silly get   { date: 'Fri, 26 Mar 2021 17:11:24 GMT',
+66 silly get     'content-type': 'application/json',
+66 silly get     'transfer-encoding': 'chunked',
+66 silly get     connection: 'keep-alive',
+66 silly get     'set-cookie':
+66 silly get      [ '__cfduid=de05c715733b0e254910d1e0fd0a625f11616778684; expires=Sun, 25-Apr-21 17:11:24 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+66 silly get     'cf-ray': '6361ff7889ed75ab-DME',
+66 silly get     age: '3905',
+66 silly get     'cache-control': 'public, max-age=300',
+66 silly get     etag: 'W/"f538acf6d267f4fe8e83d144e7eca01c"',
+66 silly get     'last-modified': 'Thu, 25 Feb 2021 23:21:20 GMT',
+66 silly get     vary: 'accept-encoding, accept',
+66 silly get     'cf-cache-status': 'HIT',
+66 silly get     'cf-request-id': '09111dff56000075abcc135000000001',
+66 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+66 silly get     server: 'cloudflare',
+66 silly get     'content-encoding': 'gzip' } ]
+67 verbose get saving express to /home/derherbst/.npm/registry.npmjs.org/express/.cache.json
+68 silly install normalizeTree
+69 silly loadCurrentTree Finishing
+70 silly loadIdealTree Starting
+71 silly install loadIdealTree
+72 silly cloneCurrentTree Starting
+73 silly install cloneCurrentTreeToIdealTree
+74 silly cloneCurrentTree Finishing
+75 silly loadShrinkwrap Starting
+76 silly install loadShrinkwrap
+77 silly loadShrinkwrap Finishing
+78 silly loadAllDepsIntoIdealTree Starting
+79 silly install loadAllDepsIntoIdealTree
+80 silly resolveWithNewModule cors@2.8.5 checking installable status
+81 silly cache add args [ 'cors', null ]
+82 verbose cache add spec cors
+83 silly resolveWithNewModule nodemon@2.0.7 checking installable status
+84 silly cache add args [ 'nodemon', null ]
+85 verbose cache add spec nodemon
+86 verbose stack Error: Missing required argument #1
+86 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+86 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+86 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+86 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+86 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+86 verbose stack     at Array.forEach (<anonymous>)
+86 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+86 verbose stack     at Array.forEach (<anonymous>)
+86 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+86 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+87 verbose cwd /mnt/c/Users/Georgii_Gerbst/study/nodejs-chat/server
+88 error Linux 4.4.0-18362-Microsoft
+89 error argv "/usr/bin/node" "/usr/bin/npm" "i" "--save" "cors" "nodemon" "express" "socket.io"
+90 error node v8.10.0
+91 error npm  v3.5.2
+92 error code EMISSINGARG
+93 error typeerror Error: Missing required argument #1
+93 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+93 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+93 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+93 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+93 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+93 error typeerror     at Array.forEach (<anonymous>)
+93 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+93 error typeerror     at Array.forEach (<anonymous>)
+93 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+93 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+94 error typeerror This is an error with npm itself. Please report this error at:
+94 error typeerror     <http://github.com/npm/npm/issues>
+95 verbose exit [ 1, true ]
